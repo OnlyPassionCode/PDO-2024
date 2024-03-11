@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form[name='countries']{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 500px;
+    text-align: center;
+}
+form[name='countries'] input[type='number']{
+    padding: 5px 10px 5px 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+form[name='countries'] input[type='submit']{
+    display: block;
+    margin-top: 1rem;
+    background-color: rgb(103, 103, 103);
+    border: 1px solid rgb(59, 59, 59);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin: 1rem auto 0 auto;
+}
+form[name='countries'] input[type='submit']:hover{
+    background-color: rgb(84, 84, 84);
+    border-radius: .5rem;
+}
+code{
+    background-color: rgb(34, 42, 42);
+    color: white;
+    font-size: 1rem;
+}
+#listepays{
+    width: 400px;
+    margin-top: 1rem;
+    margin-left: 70px;
+    border: 1px solid black;
+    padding: .2rem;
+    box-shadow: 3px 3px 5px black;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+#listepays h3{
+    margin-block: .5rem;
+    margin-left: .5rem;
+    font-size: 1.5rem;
+}
+#listepays p{
+    padding-block: .2rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+#listepays p:nth-child(even){
+    background-color: rgb(34, 42, 42);
+    color: white;
+}
